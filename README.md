@@ -71,4 +71,4 @@
  
 となる。
 
-https://tetera.sakura.ne.jp/lab/vr.html
+https://tetera.sakura.ne.jp/web-vr/vr.html
