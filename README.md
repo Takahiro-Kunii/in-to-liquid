@@ -41,10 +41,10 @@
  
 * vr.html
 
-　とし、buildやexamples/jsmフォルダを、{Webサーバーが公開するフォルダ}下に、以下のように配置した場合
+　とし、buildやexamples/jsmフォルダと共に、{Webサーバーが公開するフォルダ}下に、以下のように配置した場合
 ```
 {Webサーバーが公開するフォルダ}/
-  lab/
+  web-vr/
     vr.html
   three.js/
     build/
