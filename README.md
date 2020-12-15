@@ -5,13 +5,13 @@
  
 ## VR体験に必要なハードウエア
 　VRを体験するためには以下のいずれかのハードウエアが必須となる。
-* PC[^1]と接続したVRヘッドセット
+* PC(注1)と接続したVRヘッドセット
   * [Oculus Rift](https://www.oculus.com/rift-s/)
   * [Vive](https://www.vive.com/jp/product/#all)
 * VRヘッドセット一体型Android端末
   * [Oculus Quest/Quest2](https://www.oculus.com/quest/)
 
-[^1]:ここでいうPCはWindowsマシンを指す。MacとVRヘッドセットを接続することも可能だが、一般的ではない。
+注1）ここでいうPCはWindowsマシンを指す。MacとVRヘッドセットを接続することも可能だが、一般的ではない。
 
 ## VR体験に必要なソフトウエア
 　VR体験を提供を受ける側は、webブラウザが必要となる。webブラウザはHTML5対応が必須であるが、現状のメジャーなwebブラウザなら対応している。
