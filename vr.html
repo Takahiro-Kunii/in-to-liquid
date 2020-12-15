@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>お試し</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	</head>
+	<body>
+		<script type="module">
+			import * as THREE from '../three.js/build/three.module.js';
+			import { VRButton } from '../three.js/examples/jsm/webxr/VRButton.js';
+
+			let container = document.createElement( 'div' );
+			document.body.appendChild( container );
+
+			let scene = new THREE.Scene();
+
+			let camera = new THREE.PerspectiveCamera( 90, window.innerWidth / window.innerHeight, 0.1, 10 );
+			camera.position.set( 0, 1.2, 0 );
+			scene.add( camera );
+			
+			let renderer = new THREE.WebGLRenderer( { antialias: true } );
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			renderer.xr.enabled = true;
+			container.appendChild( renderer.domElement );
+
+			scene.add( new THREE.HemisphereLight( 0x606060, 0x404040 ) );					
+
+			let cube = new THREE.Mesh( new THREE.BoxBufferGeometry( 0.15, 0.15, 0.15 ), new THREE.MeshLambertMaterial( { color: 0xff0000 } ) );
+			cube.position.set(0, camera.position.y, -0.3);			
+			scene.add( cube );
+
+			document.body.appendChild( VRButton.createButton( renderer ) );
+			renderer.setAnimationLoop( render );
+			
+			const clock = new THREE.Clock();
+			function render() {
+				const delta = clock.getDelta();
+				cube.rotation.set(0, 0, cube.rotation.z + delta);
+				renderer.render( scene, camera );
+			}
+		</script>
+	</body>
+</html>
