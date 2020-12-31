@@ -1,6 +1,34 @@
+# in to VR
+>「昔も今も、アートマンは水に映った、おのれの影だ。それが魔族たちのウパニシャッドさ」佐藤史生著：ワンゼロより
+
+　真我を求め、没入すべし。
+ 
+## VR体験
+　VR:virtual reality（本物と錯覚するほどの現実感）を体験することを意味する。<br/>
+ 錯覚の対象には、視覚、聴覚、触覚、味覚、嗅覚といったものがあるが、このリポジトリでは、主に視覚を対象とし、コンピュータで作り出した3次元イメージの中に自分が放り込まれたような体験を意味する。
+ 
+### 3DCGI（コンピュータで作り出した3次元イメージ）
+　3次元座標、素材情報といった数値情報からコンピュータが作りだすイメージ表現を指す。以後3DCGI：3 Dimandion Computer-generated imageryと呼ぶ。
+ 
+### VRヘッドセット（ヘッドマウント式没入型3D表示装置）
+　VR体験には、自分を取り巻く全方位の3DCGIを可視化する装置が必須となる。この装置を没入型3D表示装置と呼び、特に頭に被り立体視をおこなう装置をVRヘッドセットと呼ぶ。
+ 
+ [](https://github.com/Takahiro-Kunii/web-vr/blob/main/doc/IMG_0284.jpg?raw=true)
+ 
+## VR体験に必要なハードウエア
+　VRを体験するためには以下のいずれかのハードウエアが必須となる。
+* PC(注1)と接続したVRヘッドセット
+  * [Oculus Rift](https://www.oculus.com/rift-s/)
+  * [Vive](https://www.vive.com/jp/product/#all)
+* VRヘッドセット一体型Android端末
+  * [Oculus Quest/Quest2](https://www.oculus.com/quest/)
+
+注1）ここでいうPCはWindowsマシンを指す。MacとVRヘッドセットを接続することも可能だが、一般的ではない。
+
 # web-vr
-　webブラウザ経由でVR体験を提供する方法。<br/>
-　VR表示に対応していない状態（後述）のブラウザだと以下の画像のように「WEBXR NOT AVAILABLE」というボタンが出るが、対応していると「ENTER 3D」というボタンが出る。「ENTER 3D」ボタンを押すと、没入方3D表示になる。
+　webブラウザ経由でVR体験を提供する方法。
+
+　VR表示に対応していない状態（後述）のブラウザだと以下の画像のように「WEBXR NOT AVAILABLE」というボタンが出るが、対応していると「ENTER 3D」というボタンが出る。「ENTER 3D」ボタンを押すと、没入型3D表示になる。
  
 |非対応|対応|
 |-|-|
@@ -13,15 +41,6 @@
 　レンタルサーバーなどを用意し、そこに自分が用意したVR体験用のhtmlファイルを置いて、これをwebブラウザからアクセスしてもらうことで利用者にVR体験を提供する。<br/>
 * LAN内にWebサーバーを用意しても良い。ここではMacを使う方法を例示する。
  
-## VR体験に必要なハードウエア
-　VRを体験するためには以下のいずれかのハードウエアが必須となる。
-* PC(注1)と接続したVRヘッドセット
-  * [Oculus Rift](https://www.oculus.com/rift-s/)
-  * [Vive](https://www.vive.com/jp/product/#all)
-* VRヘッドセット一体型Android端末
-  * [Oculus Quest/Quest2](https://www.oculus.com/quest/)
-
-注1）ここでいうPCはWindowsマシンを指す。MacとVRヘッドセットを接続することも可能だが、一般的ではない。
 
 ## VR体験に必要なソフトウエア
 　VR体験を提供を受ける側は、webブラウザが必要となる。webブラウザはHTML5対応が必須であるが、現状のメジャーなwebブラウザなら対応している。
