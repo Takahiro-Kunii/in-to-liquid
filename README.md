@@ -13,7 +13,7 @@
 ### VRヘッドセット（ヘッドマウント式没入型3D表示装置）
 　VR体験には、自分を取り巻く全方位の3DCGIを可視化する装置が必須となる。この装置を没入型3D表示装置と呼び、特に頭に被り立体視をおこなう装置をVRヘッドセットと呼ぶ。
  
-![](https://github.com/Takahiro-Kunii/web-vr/blob/main/doc/IMG_0284.jpg?raw=true)
+![](doc/IMG_0284.jpg)
  
 ## VR体験に必要なハードウエア
 　VRを体験するためには以下のいずれかのハードウエアが必須となる。
@@ -32,7 +32,7 @@
  
 |非対応|対応|
 |-|-|
-|![](https://github.com/Takahiro-Kunii/web-vr/blob/main/doc/readme-01.jpg?raw=true)|![](https://github.com/Takahiro-Kunii/web-vr/blob/main/doc/readme-02.jpg?raw=true)|
+|![](doc/readme-01.jpg)|![](doc/readme-02.jpg)|
 
 　上記サンプルは以下のURLで公開<br/>
  　↓
