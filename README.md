@@ -73,7 +73,7 @@
 　とし、buildやexamples/jsmフォルダと共に、{Webサーバーが公開するフォルダ}下に、以下のように配置した場合
 ```
 {Webサーバーが公開するフォルダ}/
-  web-vr/
+  web-lab/
     vr.html
   three.js/
     build/
@@ -99,5 +99,3 @@
  ```
  
 となる。
-
-https://tetera.sakura.ne.jp/web-vr/vr.html
