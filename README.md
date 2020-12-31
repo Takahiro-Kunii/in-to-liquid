@@ -1,5 +1,15 @@
 # web-vr
 　webブラウザ経由でVR体験を提供する方法。<br/>
+　VR表示に対応していない状態（後述）のブラウザだと以下の画像のように「WEBXR NOT AVAILABLE」というボタンが出るが、対応していると「ENTER 3D」というボタンが出る。「ENTER 3D」ボタンを押すと、没入方3D表示になる。
+ 
+|非対応|対応|
+|-|-|
+|![](https://github.com/Takahiro-Kunii/web-vr/blob/main/doc/readme-01.jpg?raw=true)|![](https://github.com/Takahiro-Kunii/web-vr/blob/main/doc/readme-02.jpg?raw=true)|
+
+　上記サンプルは以下のURLで公開<br/>
+ 　↓
+ https://tetera.sakura.ne.jp/web-lab/vr.html
+ 
 　レンタルサーバーなどを用意し、そこに自分が用意したVR体験用のhtmlファイルを置いて、これをwebブラウザからアクセスしてもらうことで利用者にVR体験を提供する。<br/>
 * LAN内にWebサーバーを用意しても良い。ここではMacを使う方法を例示する。
  
