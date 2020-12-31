@@ -21,6 +21,7 @@
 * PC(注1)と接続したVRヘッドセット
   * [Oculus Rift](https://www.oculus.com/rift-s/)
   * [Vive](https://www.vive.com/jp/product/#all)
+  * [Valve index](https://steamvr.jp/headset.html)
 * VRヘッドセット一体型Android端末
   * [Oculus Quest/Quest2](https://www.oculus.com/quest/)
 
